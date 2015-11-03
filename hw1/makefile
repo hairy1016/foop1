@@ -5,4 +5,5 @@ playgame.o: $(file)
 .PHONY: clean
 clean: 
 	rm *.o
-
+run: $(PlayGame)
+		java PlayGame
